@@ -11,6 +11,7 @@ function Avatar({ username, logoutOnPress }) {
         username || user.get("username")
       }.svg`}
       onClick={() => logoutOnPress && logout()}
+      alt="bg"
     />
   );
 }
